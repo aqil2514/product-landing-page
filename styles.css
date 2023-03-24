@@ -167,4 +167,16 @@
   .navbar-menu-active{
     right: 0;
   }
+
+  .container{
+    width: 20rem;
+    height: 10rem;
+    border: 0.2rem solid white;
+    border-radius: 10px;
+  }
+
+  .welcome{
+    top: 20%;
+    border: none;
+  }
 }
