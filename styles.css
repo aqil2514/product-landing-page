@@ -152,22 +152,6 @@
   }
   }
   
-  
-  @media only screen and (max-width: 600px) {
-  body{
-    background: black;
-  }
-  
-  #header, div, section, iframe, #iklan{
-    display: none;
-  }
-  
-  body::after{
-    content: "Perbesar Layar!";
-  
-  }
-  }
-  
   section:first-of-type{
     margin-top: 13%;
   }
@@ -294,4 +278,16 @@
   .pack-container button:active{
     background-color: white;
     transform: scale(1.1);
+  }
+
+  @media (max-width:768px){
+    iframe{
+      width: 360px;
+      height: 200px;
+    }
+
+    #harga{
+      flex-direction: column;
+    }
+
   }
