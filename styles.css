@@ -82,6 +82,55 @@
   background-size: cover;
 }
 
+.container{
+  width: 30rem;
+  height: 10rem;
+  background-color: rgb(165, 42, 42, 0.8);
+  border: 0.2rem solid white;
+  border-radius: 10px;
+}
+
+.profile{
+  position: absolute;
+  bottom: 10%;
+  left: 5%;
+  padding: 2rem;
+}
+
+.profile h1{
+  text-align: center;
+  color: white;
+}
+
+.profile p{
+  text-align: justify;
+  color: white;
+}
+
+.welcome{
+  position: absolute;
+  background-color: transparent;
+  border: none;
+  width: 80%;
+  top: 12%;
+  right: 5%;
+}
+
+.welcome h1, .welcome h2{
+  text-align: right;
+  -webkit-text-stroke: 0.1rem black;
+}
+
+.welcome h1{
+  font-size: 2.5rem;
+  color: white;
+}
+
+.welcome h2{
+  font-size: 2rem;
+  color: yellow;
+}
+
 /* TABLET ORIENTATION */
 
 @media(max-width: 768px){
