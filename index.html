@@ -1,80 +1,46 @@
-<!DOCTYPE html><html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Product Landing Page</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <header id="header">
-      <img src="https://blogger.googleusercontent.com/img/a/AVvXsEijS-SuKBcqpsIJea8hmS4FfhqVZfKKTSepnOV_V7YdzCQAnCaVwkjgihRLhbIGPIk1FR7czUFDljZTVQjEhFFBvyWEQpWGEeiw7kUwB7lYNeVoZLS9RBlIOXEaf8TlY4-7xr_wmGbUSYSrF0Vi7jBJzZg3a_RE9QL39drFYSUFvApcxt_NSpXOPKpl" id="header-img">
-      <div class="name-sub">
-          <div class="logo">I&B Store</div>
-          <div class="sub-logo">Ice & Beverage Store</div>
-      </div>
-      <nav id="nav-bar">
-        <ul>
-          <li><a class="nav-link" href="#fasilitas">Fasilitas</a></li>
-          <li><a class="nav-link" href="#iklan">Iklan</a></li>
-          <li><a class="nav-link" href="#harga">Harga</a></li>
-        </ul>
-      </nav>
-      </header>
-      <section class="form">
-              <form id="form" action="https://www.freecodecamp.com/email-submit">
-          <p>E-mail:</p> <input id="email" type="email" name="email" placeholder="Masukkan alamat email Anda untuk berlangganan" />
-          <input id="submit" type="submit" />
-        </form> </section>
-      <section id="fasilitas" class="fasilitas-container">
-        <header class="sec-header">Kenapa harus beli di sini?</header>
-      <article>
-        <p>Kualitas Rasa Terjamin</p>
-        <p>Kami sangat memperhatikan betul soal rasa. Rasa dan gizi dalam es yang kami bikin sudah teruji di tingkat internasional</p>
-      </article>
-      <article>
-        <p>Harga merakyat</p>
-        <p>Kami dapat menjamin harganya sesuai dengan kantong Anda. Dapati produk kami mulai dari Rp10.000</p>
-      </article>
-      <article>
-        <p>Tersedia di seluruh Indonesia</p>
-        <p>Kami memiliki begitu banyak cabang di Indonesia. Hal ini juga yang membuat kami percaya diri bahwa Anda dapat menikmati produk kami di manapun Anda berada</p>
-      </article>
-      </section>
-      <section id="iklan">
-        <header class="sec-header">Ad Video by 
-Agoessam</header>
-        <iframe id="video" src="https://www.youtube.com/embed/gpgO9PTjhu0" ></iframe>
-      </section>
-      <section id="harga">
-        <header class="sec-header">Paket Harga</header>
-        <div class="pack-container">
-          <h2>Paket Hemat</h2>
-          <p class="price">Rp50.000</p>
-          <p class="item">Nasi</p>
-          <p class="item">Ayam Geprek</p>
-          <p class="item">Es Lumut</p>
-          <p class="item">Air Mineral</p>
-          <button type="button">Pilih ini</button>
-        </div>
-        <div class="pack-container">
-          <h2>Paket Medium</h2>
-          <p class="price">Rp.80.000</p>
-          <p class="item">Nasi</p>
-          <p class="item">Ikan Gurame</p>
-          <p class="item">Es Lumut</p>
-          <p class="item">Es Boba & Mineral</p>
-          <button type="button">Pilih ini</button>
-        </div>
-        <div class="pack-container">
-          <h2>Paket Mewah</h2>
-          <p class="item" class="price">Rp160.000</p>
-          <p class="item">Nasi Kebuli</p>
-          <p class="item">Daging Wagyu</p>
-          <p class="item">Es Lumut 5cs</p>
-          <p class="item">Air Mineral 10pcs</p>
-          <button type="button">Pilih ini </button>
-        </div>
-      </section>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>I&B Store</title>
+  
+    <!-- ICON -->
+    <link rel="icon" type="image/x-icon" href="img/icon.png">
+
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     
-  </body>
+    <!-- Feather Icon -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- MY STYLES CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- HEADER START -->
+  <nav class="navbar">
+    <div class="logo">
+      <h1>I&B <span>Store</span></h1>
+      <p>Ice & Beverage Store</p>
+    </div>
+    <div class="navbar-menu">
+      <a href="#">Home</a>
+      <a href="#product">Produk</a>
+      <a href="#about">Tentang</a>
+    </div>
+    <i data-feather="menu" class="ham-menu"></i>
+  </nav>
+  <!-- HEADER STOP -->
+  <!-- HOME PAGE START -->
+  <section class="main-page"></section>
+  <!-- HOME PAGE END -->
+  
+  <script>feather.replace()</script>
+  <script src="script.js"></script>
+</body>
 </html>
