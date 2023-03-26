@@ -335,7 +335,8 @@ font-weight: bold;
 
 /* FOOTER PAGE */
 footer{
-  width: 100%;
+  width: 114%;
+  max-width: 1160px;
   padding: 1rem 0;
   background-color: brown;
   border-top: 0.2rem solid white;
@@ -433,7 +434,7 @@ footer a{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    width: 50%;
+    width: 80%;
     height: 70%;
     border: 0.2rem solid white;
     border-radius: 0.8rem;
@@ -468,7 +469,7 @@ footer a{
 
   .ex-product-info{
     text-align: justify;
-    margin: 0 0rem;
+    margin: 1rem -5rem;
   }
 
   .ex-shop-button-container{
